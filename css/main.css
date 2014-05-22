@@ -1,0 +1,141 @@
+.alert-fixed {
+    position: fixed;
+    top: 0px;
+    right: 20%;
+    left: 20%;
+    z-index: 9999;
+}
+
+.fade {
+    transition: opacity .3s linear;
+}
+
+#legend {
+    display: inline;
+}
+
+#legend h2 {
+    display: inline;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+#legend a {
+    color: white;
+    margin-right: 20px;
+}
+
+#legend span {
+    padding: 2px 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    margin: 0 5px;
+}
+
+#legend .string {
+    background-color: #009408;
+}
+
+#legend .array {
+    background-color: #2D5B89;
+}
+
+#legend .object {
+    background-color: #E17000;
+}
+
+#legend .number {
+    background-color: #497B8D;
+}
+
+#legend .boolean {
+    background-color: #B1C639;
+}
+
+#legend .null,.item.null>.property {
+    background-color: #B1FF39;
+}
+
+#expander {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#footer {
+    font-size: 13px;
+}
+
+#rest {
+    margin: 20px 0 20px 30px;
+}
+
+#rest label {
+    font-weight: bold;
+}
+
+#rest-callback {
+    width: 70px;
+}
+
+#rest-url {
+    width: 700px;
+}
+
+label[for="json"] {
+    margin-left: 30px;
+    display: block;
+}
+
+#json-note {
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.addthis_toolbox {
+    position: relative;
+    top: -10px;
+    margin-left: 30px;
+}
+
+#disqus_thread {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.json-editor .item.appender {
+    margin-top: 20px;
+}
+
+ul.ddm-select {
+    max-height: 300px;
+    overflow: auto;
+}
+
+ul.ddm-select li a {
+    margin-right: 10px;
+}
+
+ul.ddm-select li a button {
+    margin-right: 10px;
+}
+
+#jsonDiv {
+    overflow: auto;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    background: #FFFFFF;
+    padding: 5px;
+    opacity: 0.5;
+}

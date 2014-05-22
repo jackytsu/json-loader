@@ -1,0 +1,22 @@
+{
+    "manifest_version":2,
+    "author":"JackyTsu",
+    "name":"JSONLoader",
+    "description":"A utility tool, which can load json data via ajax. Supporting modify http request headers and parameters.",
+    "version":"0.9",
+    "icons":{
+        "16":"images/icon16.png",
+        "48":"images/icon48.png",
+        "128":"images/icon128.png"
+    },
+    "app":{
+        "launch":{
+            "local_path":"json-loader.html"
+        }
+    },
+    "permissions":[
+        "unlimitedStorage",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
