@@ -108,10 +108,10 @@ $(function() {
     };
 
     $header.click(function() {
-        showModal('header', JSON.parse($header.val()));
+        showModal('header', JSON.parse($header.val() || '{}'));
     });
     $params.click(function() {
-        showModal('params', JSON.parse($params.val()));
+        showModal('params', JSON.parse($params.val() || '{}'));
     });
 
     $('#btnClear').click(function() {
@@ -154,7 +154,7 @@ $(function() {
                 serverHis.push($server.val());
                 genDDMenu($ddServer, $ddServerBtn, serverHis);
             }
-            localStorage.setItem(DATA_KEY.SERVER_HIS, JSON.stringify(serverHis));
+            localStorage.setItem(DATA_KEY.SERVER_HIS, serverHis.join(','));
 
             if ($.inArray($header.val(), headerHis) == -1) {
                 if (headerHis.length == MAX_HIS) {
