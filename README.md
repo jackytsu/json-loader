@@ -10,8 +10,8 @@ Features:
 
 Screen shots:
 ----------
-![](http://www.jackytsu.cn/wp-content/uploads/2014/05/json-loader_screen_shot.png)
-![](http://www.jackytsu.cn/wp-content/uploads/2014/05/json-loader_screen_shot2.png)
+![](http://jackytsu.qiniudn.com/json-loader_screen_shot.png)
+![](http://jackytsu.qiniudn.com/json-loader_screen_shot2.png)
 
 Thanks:
 ----------
